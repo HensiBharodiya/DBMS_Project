@@ -8,7 +8,7 @@ def execute_trans(sql_commands):
       host= 'localhost',
       database= 'postgres',
       user= 'postgres',
-      password= 'Asdf@1234'
+      password= '232700'
   )
   connection.autocommit = False # We have turned off the auto commit to manage the transactions and to apply ACID properties
   cursor = connection.cursor()
